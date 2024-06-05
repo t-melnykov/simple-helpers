@@ -28,10 +28,17 @@ composer global require --dev wp-coding-standards/wpcs:"^3.0"
 
 # Add to settings.json config
 # "[php]": {
-# "editor.defaultFormatter": "valeryanm.vscode-phpsab",
-# "editor.formatOnSave": true
+#     "editor.defaultFormatter": "valeryanm.vscode-phpsab",
+#     "editor.formatOnSave": true
 # },
 # "phpsab.fixerEnable": true,
+# "phpsab.snifferEnable": true,
 # "phpsab.executablePathCS": "/home/tarik762/.config/composer/vendor/bin/phpsc",
 # "phpsab.executablePathCBF": "/home/tarik762/.config/composer/vendor/bin/phpcbf",
-# "phpsab.standard": "WordPress",
+# "phpsab.standard": "PSR2",
+# "phpsab.snifferMode": "onType"
+
+# For local project settings add to .vscode/settings.json
+# {
+#     "phpsab.standard": "WordPress",
+# }
