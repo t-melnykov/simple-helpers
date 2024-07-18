@@ -62,3 +62,7 @@ git rm --cached FILENAME #видалити файл з індексу (стей�
 # Переключение на ветку dev и слияние с веткой master
 git checkout dev
 git merge origin/master
+
+
+# Pull branch from remote with resolving conflicts
+git pull --no-rebase origin <branch_name> 
